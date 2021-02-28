@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3428CADAC0BC59CEE73FFB80 /* Pods_bokete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41CD1E75CD881E6C799B236 /* Pods_bokete.framework */; };
+		FA6A164025EB8D37002BA688 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A163F25EB8D37002BA688 /* ShareViewController.swift */; };
 		FA852E9125E9DE30000B6AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA852E9025E9DE30000B6AE3 /* AppDelegate.swift */; };
 		FA852E9325E9DE30000B6AE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA852E9225E9DE30000B6AE3 /* SceneDelegate.swift */; };
 		FA852E9525E9DE30000B6AE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA852E9425E9DE30000B6AE3 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		B41CD1E75CD881E6C799B236 /* Pods_bokete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bokete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86171B9FBA31C7557C60D65 /* Pods-bokete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bokete.debug.xcconfig"; path = "Target Support Files/Pods-bokete/Pods-bokete.debug.xcconfig"; sourceTree = "<group>"; };
 		BDDA66650439B15E87DDEEB2 /* Pods-bokete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bokete.release.xcconfig"; path = "Target Support Files/Pods-bokete/Pods-bokete.release.xcconfig"; sourceTree = "<group>"; };
+		FA6A163F25EB8D37002BA688 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		FA852E8D25E9DE30000B6AE3 /* bokete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bokete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA852E9025E9DE30000B6AE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA852E9225E9DE30000B6AE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				B86171B9FBA31C7557C60D65 /* Pods-bokete.debug.xcconfig */,
 				BDDA66650439B15E87DDEEB2 /* Pods-bokete.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 				FA852E9025E9DE30000B6AE3 /* AppDelegate.swift */,
 				FA852E9225E9DE30000B6AE3 /* SceneDelegate.swift */,
 				FA852E9425E9DE30000B6AE3 /* ViewController.swift */,
+				FA6A163F25EB8D37002BA688 /* ShareViewController.swift */,
 				FA852E9625E9DE30000B6AE3 /* Main.storyboard */,
 				FA852E9925E9DE32000B6AE3 /* Assets.xcassets */,
 				FA852E9B25E9DE32000B6AE3 /* LaunchScreen.storyboard */,
@@ -208,6 +210,7 @@
 			files = (
 				FA852E9525E9DE30000B6AE3 /* ViewController.swift in Sources */,
 				FA852E9125E9DE30000B6AE3 /* AppDelegate.swift in Sources */,
+				FA6A164025EB8D37002BA688 /* ShareViewController.swift in Sources */,
 				FA852E9325E9DE30000B6AE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
